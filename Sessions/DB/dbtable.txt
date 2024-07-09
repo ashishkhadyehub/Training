@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[DBUsers](
+	[Srno] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [nvarchar](50) NULL,
+	[Contact] [nvarchar](50) NULL,
+	[Email] [nvarchar](50) NULL,
+	[City] [nvarchar](50) NULL,
+	[CreatedDate] [date] NULL
+) ON [PRIMARY]
